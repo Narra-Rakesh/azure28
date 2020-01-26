@@ -1,9 +1,17 @@
 {
-	"name": "DelimitedText1",
+	"name": "blob_csvfile",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"par1": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Blob DS"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
